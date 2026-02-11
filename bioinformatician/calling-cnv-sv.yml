@@ -1,0 +1,12 @@
+name: calling-cnv-sv
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - manta
+  - delly
+  - lumpy-sv
+  - cnvkit
+  - mosdepth
+  - samtools
+  - bcftools

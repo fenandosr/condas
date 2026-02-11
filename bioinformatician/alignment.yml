@@ -1,0 +1,13 @@
+name: alignment
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bwa
+  - minimap2
+  - bowtie2
+  - fastqc
+  - fastp
+  - picard
+  - sambamba
+  - samtools

@@ -1,0 +1,13 @@
+name: qc-viz
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - multiqc
+  - fastqc
+  - r-base
+  - r-ggplot2
+  - r-dplyr
+  - python
+  - matplotlib
+  - seaborn

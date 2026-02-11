@@ -1,0 +1,12 @@
+name: calling-snv-indels
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - gatk4
+  - freebayes
+  - bcftools
+  - vt
+  - vcflib
+  - snpeff
+  - ensembl-vep

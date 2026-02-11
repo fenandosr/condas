@@ -1,0 +1,11 @@
+name: genomics-core
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bcftools
+  - htslib
+  - samtools
+  - tabix
+  - bedtools
+  - plink2

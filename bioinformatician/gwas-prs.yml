@@ -1,0 +1,13 @@
+name: gwas-prs
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - plink
+  - plink2
+  - gcta
+  - bcftools
+  - r-base
+  - r-data.table
+  - r-qqman
+  - r-optparse
