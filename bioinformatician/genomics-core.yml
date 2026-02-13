@@ -9,3 +9,5 @@ dependencies:
   - tabix
   - bedtools
   - plink2
+  - plink
+  - dxpy
