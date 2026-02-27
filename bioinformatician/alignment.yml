@@ -4,10 +4,12 @@ channels:
   - bioconda
 dependencies:
   - bwa
+  - bwa-mem2
   - minimap2
   - bowtie2
   - fastqc
   - fastp
+  - multiqc
   - picard
   - sambamba
   - samtools

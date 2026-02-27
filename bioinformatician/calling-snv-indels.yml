@@ -5,8 +5,10 @@ channels:
 dependencies:
   - gatk4
   - freebayes
+  - samtools
   - bcftools
   - vt
   - vcflib
   - snpeff
   - ensembl-vep
+  - picard
