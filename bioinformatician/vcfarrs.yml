@@ -1,0 +1,46 @@
+name: vcfarr-hpc
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  # base
+  - python=3.11
+  - pip
+  - setuptools
+  - wheel
+
+  # core scientific stack
+  - numpy
+  - pandas
+  - scipy
+  - xarray
+  - dask
+  - numcodecs
+  - zarr
+  - cyvcf2
+  - pysam
+  - scikit-allel
+  - pyarrow
+  - bio2zarr
+
+  # VCF / BCF / genomic CLI
+  - bcftools
+  - htslib
+  - samtools
+  - tabix
+  - vcftools
+  - plink2
+
+  # compression / parallel / CLI helpers
+  - pigz
+  - pbzip2
+  - xz
+  - zstd
+  - parallel
+  - ripgrep
+  - fd-find
+  - jq
+  - yq
+
+  # notebooks / inspection opcional pero útil
+  - ipython
