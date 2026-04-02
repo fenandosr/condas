@@ -1,0 +1,12 @@
+name: pydata-lite
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - ipython
+  - pandas
+  - polars
+  - duckdb
+  - pyarrow
+  - matplotlib
