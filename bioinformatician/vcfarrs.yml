@@ -22,6 +22,7 @@ dependencies:
   - scikit-allel
   - pyarrow
   - bio2zarr
+  - duckdb
 
   # VCF / BCF / genomic CLI
   - bcftools
