@@ -1,0 +1,14 @@
+name: vep
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - ensembl-vep
+  - bcftools
+  - htslib
+  - samtools
+  - tabix
+  - perl
+  - curl
+  - wget
+  - jq
