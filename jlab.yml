@@ -1,0 +1,61 @@
+name: jlab
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+
+  # JupyterLab core
+  - jupyterlab>=4
+  - ipykernel
+  - notebook                        # nuevo notebook UI (7+)
+  - ipywidgets>=8
+  - jupyterlab_widgets
+
+  # Extensiones JupyterLab
+  - jupyterlab-git
+  - jupyterlab_code_formatter       # formatea celdas con black/isort
+  - jupyterlab_execute_time         # tiempo de ejecución por celda
+  - jupyterlab_rise                 # presentaciones slideshow
+  - jupyter-lsp
+  - python-lsp-server
+
+  # Notebook utilities
+  - jupytext
+  - nbstripout
+  - nbdime
+  - nbqa                            # linters sobre notebooks
+
+  # Data stack
+  - numpy
+  - pandas
+  - polars
+  - pyarrow
+  - duckdb
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - dask
+
+  # Visualización
+  - matplotlib
+  - ipympl                          # matplotlib interactivo (widget backend)
+  - seaborn
+  - plotly
+  - altair
+
+  # Dev tools
+  - ruff
+  - black
+  - isort
+  - mypy
+  - pre-commit
+
+  # Performance
+  - numba
+  - bottleneck
+  - numexpr
+
+  - pip:
+      - jupyterlab-mathjax3         # mejor renderizado matemático
+      - jupyterlab-spellchecker     # spellcheck en markdown

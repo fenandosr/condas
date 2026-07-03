@@ -1,0 +1,58 @@
+name: jn-genomics
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12.*
+  - pip
+
+  # Classic Jupyter Notebook (notebook 6 requerido para nbextensions)
+  - notebook=6.5.*
+  - ipykernel
+  - ipywidgets=7.*
+  - widgetsnbextension
+  - rise                              # presentaciones slideshow en notebook clásico
+
+  # Notebook extensions (solo compatibles con notebook 6)
+  - jupyter_contrib_nbextensions      # TOC, code folding, variable inspector, etc.
+  - jupyter_nbextensions_configurator
+
+  # Notebook utilities
+  - jupytext
+  - nbstripout
+  - nbdime
+  - nbconvert
+  - nbqa                              # ruff/black sobre .ipynb
+  - papermill                         # notebooks parametrizados / pipeline
+
+  # Visualización interactiva
+  - matplotlib
+  - ipympl                            # matplotlib interactivo (zoom, pan en celdas)
+  - seaborn
+  - plotly
+  - itables                           # DataFrames interactivos con búsqueda/filtro
+
+  # Data stack
+  - numpy
+  - pandas
+  - polars
+  - pyarrow
+  - duckdb
+  - scipy
+  - scikit-learn
+  - statsmodels
+
+  # Genomics
+  - biopython
+  - pysam
+  - cyvcf2
+  - anndata
+
+  # Dev tools
+  - black
+  - isort
+  - ruff
+  - ipdb                              # debugger interactivo
+
+  - pip:
+      - jupyterthemes                 # jt -t monokai / oceans16 etc.
